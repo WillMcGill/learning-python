@@ -1,3 +1,6 @@
-print("Hello World")
+def describe(name, age):
+    return f"My name is {name} and I am {age}"
 
-print(1+1)
+info = describe("Will", 35)
+
+print(info)
